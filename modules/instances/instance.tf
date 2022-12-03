@@ -12,7 +12,7 @@ variable "VPC_ID" {
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "sshkey-${var.ENV}.pub"
+  default = "sshkey.pub"
 }
 
 data "aws_ami" "ubuntu" {
